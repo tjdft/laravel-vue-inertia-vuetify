@@ -1,4 +1,5 @@
 module.exports = {
     title: 'Laravel + Vue + Vuetify + Inertia',
-    description: 'Tutorial'
+    description: 'Tutorial',
+    base: '/laravel-vue-inertia-vuetify/',
 }

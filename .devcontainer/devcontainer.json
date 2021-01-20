@@ -1,0 +1,13 @@
+{
+	"name": "vitepress",
+	"service": "vitepress",
+	"workspaceFolder": "/app",
+	"dockerComposeFile": "../.docker/docker-compose.yml",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/sh"
+	},
+	// Add the IDs of extensions you want installed when the container is created in the array below.
+	"extensions": [
+		"octref.vetur"
+	],
+}

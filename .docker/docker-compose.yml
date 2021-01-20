@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  ######## PORTAL ########
+  vitepress:
+    image: node:15-alpine
+    command: "sh -c 'apk add git openssh && echo Keep running... Done! && sleep infinity'"
+
+    volumes:
+      - ../:/app:cached
+    ports:
+      - 8080:8080
+      - 3000:3000
